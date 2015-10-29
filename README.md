@@ -13,4 +13,5 @@
 	- https://github.com/mongodb/mongo-java-driver/releases
 - Spring Data MongoDB
 	- http://projects.spring.io/spring-data-mongodb/
-
+- Introduction to MongoDB Geospatial feature
+	- http://tugdualgrall.blogspot.com.es/2014/08/introduction-to-mongodb-geospatial.html
