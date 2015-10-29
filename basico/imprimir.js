@@ -6,3 +6,7 @@ var imprimir = function(cursor) {
 			print("ordenador.nombre = " + p.ordenadores[i].nombre); 
 	}
 }
+
+// Para ejecutar: 
+load('imprimir.js');
+imprimir(db.personas.find());
