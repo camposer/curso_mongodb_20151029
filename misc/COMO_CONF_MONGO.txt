@@ -2,7 +2,7 @@ Cómo configurar Mongo
 =====================
 
 1.- Agregar a la variable PATH la ruta donde está instalado el mongo/bin. Por ejemplo:	
-	C:\Archivos de programa\MongoDB\Server\bin
+	C:\Archivos de programa\MongoDB\bin
 
 	NOTAS:
 	- Para configurar la variable PATH. Clic derecho sobre Equipo -> Propiedades -> Avanzado -> Variables de entorno. Buscar la variable PATH y si existe agregar al final la ruta después de ";". Por ejemplo: PATH=C:\Archivos de programa\Java\jdk\bin;C:\Archivos de programa\MongoDB\Server\bin
