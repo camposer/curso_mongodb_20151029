@@ -15,3 +15,30 @@ db.inventario.aggregate([
 		}
 	}
 ]);
+
+// Esta consulta no tiene ningún sentido, pero está chula...
+db.inventario.aggregate([
+	{
+		$match: {
+			"lugar.id": 1
+		}
+	},
+	{
+		$group: {
+			_id: {
+				tipo: "$tipo",
+				lugar: "$lugar.id"
+			},
+			count: {
+				$sum: 1
+			}
+		}
+	},
+	{
+		$unwind: "$_id.lugar"
+		
+	},
+	{
+		$match: { "_id.lugar": 1 }
+	}
+]);
