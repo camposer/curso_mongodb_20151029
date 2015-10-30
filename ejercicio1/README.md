@@ -15,4 +15,4 @@ Utilizando el framework de agregación:
 0. Cuántos productos hay en el lugar con id=1?
 0. Cuántos productos de tipo="tipo1" hay?
 0. Extraiga los documentos de tipo="tipo1" y ordénelos de mayor a menor existencia (cantidad)
-
+0. Cantidad de productos, existencia total (cantidad) y promedio de cantidades disponibles.
