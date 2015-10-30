@@ -9,7 +9,7 @@ db.inventario.aggregate([
 	},
 	{
 		$project: {
-			nombre: 1
+			"mi nombre": "$nombre"
 		}
 	}
 ])
